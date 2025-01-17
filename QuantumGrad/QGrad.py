@@ -89,7 +89,7 @@ class Value:
     def backwards(self):
         visited =set()
         topo_ordering = []
-
+        #Topological sortiing 
         def build_topo(node):
             if node not in visited:
                 visited.add(node)
