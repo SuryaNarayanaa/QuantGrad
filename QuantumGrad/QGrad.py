@@ -31,6 +31,9 @@ class Value:
         out._backwards = _backwards#soo we have to accumulate them 
         return out  
     
+    def __radd__(self, other):
+        return self if other == 0 else self + other
+    
     def __neg__(self):
         return self * -1
     
