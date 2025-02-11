@@ -87,6 +87,9 @@ class Value:
     
     #OVERALL BACKWARD FUNCTION
     def backwards(self):
+        """
+        Performs backpropagation to compute the gradients of all nodes in the computational graph.
+        """
         visited =set()
         topo_ordering = []
         #Topological sortiing 

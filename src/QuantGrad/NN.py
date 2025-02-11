@@ -1,5 +1,5 @@
 import random
-from QGrad import Value, draw_dot
+from QuantGrad.QGrad import Value, draw_dot
 class Neuron:
     def __init__(self, nin):
         self.weights = [Value(random.uniform(-1,1), _label= 'w') for _ in range(nin)]
