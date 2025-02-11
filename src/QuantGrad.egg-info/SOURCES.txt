@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/QuantGrad/NN.py
+src/QuantGrad/QGrad.py
+src/QuantGrad/__init__.py
+src/QuantGrad.egg-info/PKG-INFO
+src/QuantGrad.egg-info/SOURCES.txt
+src/QuantGrad.egg-info/dependency_links.txt
+src/QuantGrad.egg-info/requires.txt
+src/QuantGrad.egg-info/top_level.txt

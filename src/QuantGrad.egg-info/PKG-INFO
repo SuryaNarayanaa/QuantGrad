@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: QuantGrad
+Version: 0.1
+Summary: A Small(Quant) Auto Grad Library with visualization of individual operations within Neurons
+Home-page: https://github.com/SuryaNarayanaa/QuantGrad
+Author: Surya Narayanaa N T
+Author-email: suryanarayanaant@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: graphviz
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Project README
+
+This project contains multiple sub-projects. You can find their respective README files below:
+
+- [Derivatives README](./Derivatives/README.md)
+- [QuantGrad README](./QuantGrad/README.md)
+- This is how a 100 parameter FC NN looks like, pretty dope
+![This is how a 100 parameter FC NN looks like](./This%20is%20how%20a%20100%20parameter%20FC%20NN%20looks%20like%20.svg)
+
+As this is the building blocks of DNN's and AI's we can experiment with a lot of concepts with this, 
+So collaborators are welcomed to clone this and try experimenting with this.

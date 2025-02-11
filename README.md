@@ -9,3 +9,8 @@ This project contains multiple sub-projects. You can find their respective READM
 
 As this is the building blocks of DNN's and AI's we can experiment with a lot of concepts with this, 
 So collaborators are welcomed to clone this and try experimenting with this.
+
+Install using PyPI (Python Package Index) 
+```bash
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps  QuantGrad
+```
